@@ -6,10 +6,11 @@ Turn URLs into rich cards. Show a preview image, page title, description and oth
 
 [See the live demo](https://eleventy-plugin-unfurl.netlify.app) and the [demo directory in the repo](https://github.com/daviddarnes/eleventy-plugin-unfurl/tree/main/demo) to see it all in action.
 
-- [Installation](#installation)
-- [Options](#options)
-- [Development](#development)
-- [Credits](#credits)
+- [eleventy-plugin-unfurl](#eleventy-plugin-unfurl)
+   - [Installation](#installation)
+   - [Options](#options)
+   - [Development](#development)
+   - [Credits](#credits)
 
 ## Installation
 
@@ -60,15 +61,21 @@ Turn URLs into rich cards. Show a preview image, page title, description and oth
    const pluginUnfurl = require("eleventy-plugin-unfurl");
    ```
 
-2. Install the demo dependencies:
+2. Install the module dependencies:
 
-   ```text
+   ```bash
+   npm install
+   ```
+
+3. Install the demo dependencies:
+
+   ```bash
    cd demo
    npm install
    ```
 
-3. Run the demo locally:
-   ```text
+4. Run the demo locally:
+   ```bash
    npm run dev
    ```
 
